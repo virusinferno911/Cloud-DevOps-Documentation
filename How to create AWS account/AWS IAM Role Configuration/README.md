@@ -18,7 +18,7 @@ Open IAM Roles:
 - This defines how the service will assume the role
 - Click **Next**
 
-![image.png](AWS%20IAM%20Role%20Configuration/image.png)
+![image.png](image.png)
 
 **STEP TWO**
 
@@ -28,7 +28,7 @@ Attach Permissions Policy:
 - Multiple policies can be attached if needed
 - Choose the required permission policy (e.g. AdministratorAccess)
 
-![image.png](AWS%20IAM%20Role%20Configuration/image%201.png)
+![image.png](image%201.png)
 
 **STEP THREE**
 
@@ -38,7 +38,7 @@ Name and Create Role:
 - Review trusted entity and permissions
 - Click **Create role**
 
-![image.png](AWS%20IAM%20Role%20Configuration/image%202.png)
+![image.png](image%202.png)
 
 STEP FOUR:
 
@@ -50,7 +50,7 @@ Verify Role Creation:
     - Permissions
     - Policies attached
 
-![image.png](AWS%20IAM%20Role%20Configuration/image%203.png)
+![image.png](image%203.png)
 
 **STEP FIVE**
 
@@ -60,9 +60,9 @@ Attach Role to AWS Resource:
 - Attach the role to the resource
 - The service now inherits the permissions of the role
 
-![image.png](AWS%20IAM%20Role%20Configuration/image%204.png)
+![image.png](image%204.png)
 
-![image.png](AWS%20IAM%20Role%20Configuration/image%205.png)
+![image.png](image%205.png)
 
 ### STEP SIX
 
