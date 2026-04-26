@@ -31,7 +31,7 @@ The goal was to demonstrate proficiency in:
 
 *The logical network diagram showing the 3-Tier architecture and traffic flow.*
 
-![WhatsApp Image 2026-02-06 at 11.55.43.jpeg](WhatsApp_Image_2026-02-06_at_11.55.43.jpeg)
+![WhatsApp Image 2026-02-06 at 11.55.43.jpeg](images/WhatsApp_Image_2026-02-06_at_11.55.43.jpeg)
 
 ---
 
@@ -49,10 +49,10 @@ The goal was to demonstrate proficiency in:
 > 
 > 
 > 
-> ![AWS INTERNET GW ROUTE ATTACH.JPG](AWS_INTERNET_GW_ROUTE_ATTACH.jpg)
+> ![AWS INTERNET GW ROUTE ATTACH.JPG](images/AWS_INTERNET_GW_ROUTE_ATTACH.jpg)
 > 
 
-![AWS ROUTE TABLE.JPG](AWS_ROUTE_TABLE.jpg)
+![AWS ROUTE TABLE.JPG](images/AWS_ROUTE_TABLE.jpg)
 
 ### **Phase 2: Security Configurations**
 
@@ -65,10 +65,10 @@ The goal was to demonstrate proficiency in:
 > 
 > 
 > 
-> ![image.png](image.png)
+> ![image.png](images/image.png)
 > 
 
-![image.png](image%201.png)
+![image.png](images/image%201.png)
 
 ### **Phase 3: Linux Configuration & Deployment**
 
@@ -114,12 +114,12 @@ sudo rm Oluwasheyi.zip              # Cleanup`
 > 
 > 
 > 
-> ![image.png](image%202.png)
+> ![image.png](images/image%202.png)
 > 
 
 ---
 
-![image.png](image%203.png)
+![image.png](images/image%203.png)
 
 ## 🔷Microsoft Azure Implementation
 
@@ -134,7 +134,7 @@ sudo rm Oluwasheyi.zip              # Cleanup`
 > 
 > 
 > 
-> ![Create VM Dep 1.JPG](Create_VM_Dep_1.jpg)
+> ![Create VM Dep 1.JPG](images/Create_VM_Dep_1.jpg)
 > 
 
 ### **Phase 2: Virtual Machine Deployment**
@@ -148,10 +148,10 @@ sudo rm Oluwasheyi.zip              # Cleanup`
 > 
 > 
 > 
-> ![Create VM 2.JPG](Create_VM_2.jpg)
+> ![Create VM 2.JPG](images/Create_VM_2.jpg)
 > 
 
-![Create VM 3.JPG](Create_VM_3.jpg)
+![Create VM 3.JPG](images/Create_VM_3.jpg)
 
 ### **Phase 3: Deployment**
 
@@ -163,12 +163,12 @@ sudo rm Oluwasheyi.zip              # Cleanup`
 > 
 > 
 > 
-> ![Nginx installed.JPG](Nginx_installed.jpg)
+> ![Nginx installed.JPG](images/Nginx_installed.jpg)
 > 
 
 ---
 
-![Powershell commands running 1.JPG](Powershell_commands_running_1.jpg)
+![Powershell commands running 1.JPG](images/Powershell_commands_running_1.jpg)
 
 ## **Troubleshooting Log**
 
@@ -190,9 +190,9 @@ During the AWS deployment, I encountered specific networking challenges:
 
 Successfully accessed the web server on both clouds via their respective Public IPs. The custom HTML content matches the deployed files.
 
-![Website up and running PB IP.JPG](Website_up_and_running_PB_IP.jpg)
+![Website up and running PB IP.JPG](images/Website_up_and_running_PB_IP.jpg)
 
-![Website finally running on oluwasheyi.virusinferno.JPG](Website_finally_running_on_oluwasheyi.virusinferno.jpg)
+![Website finally running on oluwasheyi.virusinferno.JPG](images/Website_finally_running_on_oluwasheyi.virusinferno.jpg)
 
 ## 🎯 Project Summary & Conclusion
 
@@ -213,4 +213,4 @@ The final portfolio website is currently live and accessible via the custom doma
 
 Final Portfolio Website URL: oluwasheyi-portfolio.virusinferno.xyz
 
-![image.png](image%204.png)
+![image.png](images/image%204.png)

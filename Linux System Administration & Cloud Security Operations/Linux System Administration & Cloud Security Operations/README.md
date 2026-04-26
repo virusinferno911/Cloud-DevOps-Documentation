@@ -152,7 +152,7 @@ When running `ls -l`, permissions appear as `-rwxr-xr--`.
 > 
 > 
 > 
-> ![12.png](12.png)
+> ![12.png](images/12.png)
 > 
 
 ---
@@ -181,7 +181,7 @@ When running `ls -l`, permissions appear as `-rwxr-xr--`.
 > 'lsblk' command output showing the attached 30GB volume
 > 
 > 
-> ![11.png](11.png)
+> ![11.png](images/11.png)
 > 
 
 ---
@@ -216,7 +216,7 @@ When running `ls -l`, permissions appear as `-rwxr-xr--`.
 > **Nano editor showing 'Port 1922' configuration**
 > 
 > 
-> ![14.png](14.png)
+> ![14.png](images/14.png)
 > 
 
 ---
@@ -252,12 +252,12 @@ When running `ls -l`, permissions appear as `-rwxr-xr--`.
 > **Datadog Dashboard showing server metrics**
 > 
 > 
-> ![16.png](16.png)
+> ![16.png](images/16.png)
 > 
 
 ---
 
-![17.png](17.png)
+![17.png](images/17.png)
 
 ## **Part 7: Cloud Observability & Automated Alerting (Datadog)**
 
