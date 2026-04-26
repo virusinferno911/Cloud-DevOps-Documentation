@@ -44,7 +44,7 @@ Because the Kernel is free, different groups packaged it with their own tools, c
 > **Diagram of Linux Distributions**
 > 
 > 
-> ![image.png](image.png)
+> ![image.png](images/image.png)
 > 
 
 ### **1.3 Linux Architecture Layers**
@@ -111,7 +111,7 @@ Bash
 > 
 > 
 > 
-> ![05.png](05.png)
+> ![05.png](images/05.png)
 > 
 
 ---
@@ -275,7 +275,7 @@ When running `ls -l`, permissions appear as `-rwxr-xr--`.
 
 **Status of Datadog-agent actively running**
 
-![image.png](image%201.png)
+![image.png](images/image%201.png)
 
 **Stress Testing the CPU:**
 
@@ -285,7 +285,7 @@ When running `ls -l`, permissions appear as `-rwxr-xr--`.
 
 **Datadog Dashboard graph showing the massive CPU spike on MPS-01**
 
-![image.png](image%202.png)
+![image.png](images/image%202.png)
 
 **Automating Alerts (Monitors):**
 
@@ -295,15 +295,15 @@ When running `ls -l`, permissions appear as `-rwxr-xr--`.
 
 **Datadog Monitor configuration page showing custom threshold settings**
 
-![image.png](image%203.png)
+![image.png](images/image%203.png)
 
 **Datadog monitoring alert notification on Slack and Email to notify the system admin team**
 
-![image.png](image%204.png)
+![image.png](images/image%204.png)
 
-![image.png](image%205.png)
+![image.png](images/image%205.png)
 
-![image.png](image%206.png)
+![image.png](images/image%206.png)
 
 ## **Part 8: Shared Network Storage (AWS EFS)
 8.1 Architecture & Use Case**
@@ -320,7 +320,7 @@ When running `ls -l`, permissions appear as `-rwxr-xr--`.
 
 **AWS Security Group Inbound Rules showing Port 2049 allowed**
 
-![image.png](image%207.png)
+![image.png](images/image%207.png)
 
 1. **Mounting the Storage:**
     - Installed the required NFS utilities on the Ubuntu servers: `sudo apt install nfs-common -y`
@@ -329,7 +329,7 @@ When running `ls -l`, permissions appear as `-rwxr-xr--`.
 
 **EFS successfully mounted at /mnt/efs-MPS-01 And /mnt/efs-MPS-02**
 
-![image.png](image%208.png)
+![image.png](images/image%208.png)
 
 1. **Verification & SFTP Upload:**
     - Created a test file on `MPS-01` inside `/mnt/efs` and verified it instantly appeared on `MPS02`.
@@ -337,7 +337,7 @@ When running `ls -l`, permissions appear as `-rwxr-xr--`.
 
 **Shared files visible on both servers** 
 
-![image.png](image%209.png)
+![image.png](images/image%209.png)
 
 ## **🎯 Master Project Summary & Conclusion**
 
