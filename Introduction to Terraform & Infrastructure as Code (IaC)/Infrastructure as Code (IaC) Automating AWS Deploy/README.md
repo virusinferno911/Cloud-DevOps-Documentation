@@ -22,7 +22,7 @@ To allow Terraform to interact with the AWS API securely, a dedicated IAM user w
 > **The IAM Setup**
 > 
 > 
-> ![01.png](images/Infrastructure%20as%20Code%20(IaC)%20Automating%20AWS%20Deploy/01.png)
+> ![01.png](images/01.png)
 > 
 
 ### Step 2: Provider Configuration
@@ -32,7 +32,7 @@ The AWS Provider was defined in the `0-provider.tf` file. This configuration ins
 > **The Provider Code**
 > 
 > 
-> ![02.png](images/Infrastructure%20as%20Code%20(IaC)%20Automating%20AWS%20Deploy/02.png)
+> ![02.png](images/02.png)
 > 
 
 ### Step 3: Defining the Infrastructure Code
@@ -45,7 +45,7 @@ Using HashiCorp Configuration Language (HCL), the networking resources were defi
 > **The Resource Code**
 > 
 > 
-> ![03.png](images/Infrastructure%20as%20Code%20(IaC)%20Automating%20AWS%20Deploy/03.png)
+> ![03.png](images/03.png)
 > 
 
 ### Step 4: Initialization
@@ -55,7 +55,7 @@ The working directory was initialized using `terraform init`. This step download
 > **Initialization**
 > 
 > 
-> ![04.png](images/Infrastructure%20as%20Code%20(IaC)%20Automating%20AWS%20Deploy/04.png)
+> ![04.png](images/04.png)
 > 
 
 ### Step 5: Code Formatting and Validation
@@ -65,7 +65,7 @@ To adhere to industry best practices, `terraform fmt` was executed to automatica
 > **Validation**
 > 
 > 
-> ![05.png](images/Infrastructure%20as%20Code%20(IaC)%20Automating%20AWS%20Deploy/05.png)
+> ![05.png](images/05.png)
 > 
 
 ### Step 6: The Execution Plan
@@ -75,7 +75,7 @@ The `terraform plan` command was executed to generate a dry-run of the deploymen
 > **The Plan**
 > 
 > 
-> ![06.png](images/Infrastructure%20as%20Code%20(IaC)%20Automating%20AWS%20Deploy/06.png)
+> ![06.png](images/06.png)
 > 
 
 ### Step 7: Applying the Infrastructure
@@ -85,7 +85,7 @@ The code was pushed to the cloud using `terraform apply -auto-approve`. Terrafor
 > **The Apply Success**
 > 
 > 
-> ![07.png](images/Infrastructure%20as%20Code%20(IaC)%20Automating%20AWS%20Deploy/07.png)
+> ![07.png](images/07.png)
 > 
 
 ### Step 8: AWS Console Verification
@@ -95,7 +95,7 @@ To confirm the API deployment, the AWS Management Console was checked. The newly
 > **AWS Console Verification**
 > 
 > 
-> ![08.png](images/Infrastructure%20as%20Code%20(IaC)%20Automating%20AWS%20Deploy/08.png)
+> ![08.png](images/08.png)
 > 
 
 ### Step 9: Resource Teardown (Clean Up)
@@ -105,7 +105,7 @@ To prevent unnecessary billing and demonstrate complete lifecycle management, th
 > **The Teardown**
 > 
 > 
-> ![09.png](images/Infrastructure%20as%20Code%20(IaC)%20Automating%20AWS%20Deploy/09.png)
+> ![09.png](images/09.png)
 > 
 
 ---

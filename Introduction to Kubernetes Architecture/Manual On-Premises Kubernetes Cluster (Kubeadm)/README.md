@@ -42,5 +42,5 @@ Verified the cluster state and node readiness via the Kubernetes CLI.
 > **Terminal showing `kubectl get nodes` with all 3 nodes in Ready state**
 > 
 > 
-> ![image.png](Manual%20On-Premises%20Kubernetes%20Cluster%20(Kubeadm)/image.png)
+> ![image.png](images/image.png)
 >

@@ -50,7 +50,7 @@ While GitHub is the most popular public repository, **Azure DevOps** is an enter
 > **Azure DevOps dashboard showing the two newly created repositories.**
 > 
 > 
-> ![image.png](images/Enterprise%20Version%20Control%20with%20Git,%20Git%20Bash%20&%20Az/image.png)
+> ![image.png](images/image.png)
 > 
 
 ### Step 2: Cloning & Authentication
@@ -101,7 +101,7 @@ When configuring Git, you must register your name and email so commits are track
 > **VS Code terminal showing the successful 'git push' command, followed by a screenshot of the Azure DevOps UI showing the new code in the 'feature_button' branch**
 > 
 > 
-> ![image.png](images/Enterprise%20Version%20Control%20with%20Git,%20Git%20Bash%20&%20Az/image%201.png)
+> ![image.png](images/image%201.png)
 > 
 
 ---

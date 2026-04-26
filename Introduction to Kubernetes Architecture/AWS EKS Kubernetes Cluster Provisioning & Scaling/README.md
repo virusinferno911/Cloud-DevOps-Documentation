@@ -30,13 +30,13 @@ The control plane and worker nodes were successfully created in AWS. The connect
 > **Terminal showing `kubectl get nodes` in Ready state**
 > 
 > 
-> ![image.png](AWS%20EKS%20Kubernetes%20Cluster%20Provisioning%20&%20Scaling/image.png)
+> ![image.png](images/image.png)
 > 
 
 > **AWS Console showing the EKS Cluster as Active**
 > 
 > 
-> ![image.png](AWS%20EKS%20Kubernetes%20Cluster%20Provisioning%20&%20Scaling/image%201.png)
+> ![image.png](images/image%201.png)
 > 
 
 ### 3. Visual Cluster Management (OpenLens)
@@ -46,7 +46,7 @@ The `kubeconfig` was securely exported and integrated into OpenLens to provide a
 > **OpenLens Nodes screen showing the EC2 instances**
 > 
 > 
-> ![image.png](AWS%20EKS%20Kubernetes%20Cluster%20Provisioning%20&%20Scaling/image%202.png)
+> ![image.png](images/image%202.png)
 > 
 
 ### 4. Workload Deployment & Auto-Scaling
@@ -56,7 +56,7 @@ Deployed a stateless Nginx web server to the cluster. To simulate high traffic, 
 > **OpenLens Pods screen showing all 5 Nginx pods running perfectly**
 > 
 > 
-> ![image.png](AWS%20EKS%20Kubernetes%20Cluster%20Provisioning%20&%20Scaling/image%203.png)
+> ![image.png](images/image%203.png)
 > 
 
 ### 5. Tear Down

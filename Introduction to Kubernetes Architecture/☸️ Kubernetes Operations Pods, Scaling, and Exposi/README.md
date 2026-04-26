@@ -102,7 +102,7 @@ kubectl delete pod <target-pod-name> -n movieapp-namespace`
 
 **OpenLens showing the running Pods**
 
-![10-k8s.png](%E2%98%B8%EF%B8%8F%20Kubernetes%20Operations%20Pods,%20Scaling,%20and%20Exposi/10-k8s.png)
+![10-k8s.png](images/10-k8s.png)
 
 ---
 
@@ -181,17 +181,17 @@ kubectl get svc -n movieapp-namespace`
 
 **Terminal output showing the EXTERNAL-IP:**
 
-![09-k8s.png](%E2%98%B8%EF%B8%8F%20Kubernetes%20Operations%20Pods,%20Scaling,%20and%20Exposi/09-k8s.png)
+![09-k8s.png](images/09-k8s.png)
 
  **OpenLens Network tab showing the movieapp-service LoadBalancer:**
 
-![12-k8s.png](%E2%98%B8%EF%B8%8F%20Kubernetes%20Operations%20Pods,%20Scaling,%20and%20Exposi/12-k8s.png)
+![12-k8s.png](images/12-k8s.png)
 
 ---
 
 ### Web browser displaying the live application via the AWS URL
 
-![08-k8s.png](%E2%98%B8%EF%B8%8F%20Kubernetes%20Operations%20Pods,%20Scaling,%20and%20Exposi/08-k8s.png)
+![08-k8s.png](images/08-k8s.png)
 
 ### Phase 6: Infrastructure Teardown
 

@@ -87,7 +87,7 @@ This is the exact sequence of events, including the real-world troubleshooting w
 > **The live Chill Clips website showing the movie posters**
 > 
 > 
-> ![image.png](images/Production%20Architecture%20&%20Deployment%20Portfolio/image.png)
+> ![image.png](images/mage.png)
 > 
 
 ### Phase 6: Version Control Immortalization
@@ -100,5 +100,5 @@ This is the exact sequence of events, including the real-world troubleshooting w
 > **Screenshot of GitHub repository showing my profile, the "Virusinferno Digital Studio" README, and my initial commit messages.**
 > 
 > 
-> ![image.png](images/Production%20Architecture%20&%20Deployment%20Portfolio/image%201.png)
+> ![image.png](images/mage%201.png)
 >

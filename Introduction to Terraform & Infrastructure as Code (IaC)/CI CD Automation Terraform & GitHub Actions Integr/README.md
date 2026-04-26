@@ -26,7 +26,7 @@ A dedicated S3 bucket was created in AWS to securely store the `terraform.tfstat
 > *AWS S3 Console showing the successful creation of the `terraform-state-practice-2026` bucket used for remote state locking.*
 > 
 > 
-> ![10.png](images/CI%20CD%20Automation%20Terraform%20&%20GitHub%20Actions%20Integr/10.png)
+> ![10.png](images/10.png)
 > 
 
 **2. Updating the Provider Configuration**
@@ -35,7 +35,7 @@ The `0-provider.tf` file was updated to route state tracking to the new S3 bucke
 > *VS Code showing the updated `0-provider.tf` file featuring the new S3 backend configuration block.*
 > 
 > 
-> ![11.png](images/CI%20CD%20Automation%20Terraform%20&%20GitHub%20Actions%20Integr/11.png)
+> ![11.png](images/11.png)
 > 
 
 ---
@@ -50,7 +50,7 @@ A `.gitignore` file was immediately implemented to block `.terraform/` and local
 > *VS Code displaying the newly created `.gitignore` file and the terminal executing the cache-clearing and commit amendment commands.*
 > 
 > 
-> ![11b.png](images/CI%20CD%20Automation%20Terraform%20&%20GitHub%20Actions%20Integr/11b.png)
+> ![11b.png](images/11b.png)
 > 
 
 ---
@@ -62,7 +62,7 @@ Because the hardcoded keys were removed from the Terraform configuration, the Gi
 > *GitHub Repository Settings demonstrating the injection of `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` into the Actions Secrets vault.*
 > 
 > 
-> ![12.png](images/CI%20CD%20Automation%20Terraform%20&%20GitHub%20Actions%20Integr/12.png)
+> ![12.png](images/12.png)
 > 
 
 ---
@@ -81,7 +81,7 @@ A `.github/workflows/terraform.yml` file was created to define the exact CI/CD i
 > *The fully structured YAML workflow file configuring the GitHub Actions pipeline.*
 > 
 > 
-> ![13.png](images/CI%20CD%20Automation%20Terraform%20&%20GitHub%20Actions%20Integr/13.png)
+> ![13.png](images/13.png)
 > 
 
 ---
@@ -95,7 +95,7 @@ After running `terraform fmt` locally and pushing the corrected code, the pipeli
 > *GitHub Actions dashboard confirming a fully successful "Terraform Execution" run, passing all quality checks and deployment stages.*
 > 
 > 
-> ![14.png](images/CI%20CD%20Automation%20Terraform%20&%20GitHub%20Actions%20Integr/14.png)
+> ![14.png](images/14.png)
 > 
 
 ---
@@ -107,7 +107,7 @@ To verify the automated deployment, the AWS Management Console was audited. The 
 > *AWS VPC Dashboard verifying the active `DevOps-Practice-VPC` deployed by the GitHub Actions runner.*
 > 
 > 
-> ![15.png](images/CI%20CD%20Automation%20Terraform%20&%20GitHub%20Actions%20Integr/15.png)
+> ![15.png](images/15.png)
 > 
 
 ### **Resource Teardown:**
@@ -116,5 +116,5 @@ To complete the lifecycle and prevent orphaned resources, the infrastructure was
 > *VS Code terminal output verifying the successful teardown of the automated resources.*
 > 
 > 
-> ![16.png](images/CI%20CD%20Automation%20Terraform%20&%20GitHub%20Actions%20Integr/16.png)
+> ![16.png](images/16.png)
 >

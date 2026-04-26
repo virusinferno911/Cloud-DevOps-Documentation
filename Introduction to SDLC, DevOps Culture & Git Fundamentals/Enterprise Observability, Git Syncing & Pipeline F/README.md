@@ -31,12 +31,12 @@ To get Azure DevOps to post messages directly into a Slack channel whenever a de
 > **A split screen showing Azure DevOps Service Hook configuration on one side, and the automated Slack notification arriving in channel on the other.**
 > 
 > 
-> ![image.png](images/Enterprise%20Observability,%20Git%20Syncing%20&%20Pipeline%20F/image.png)
+> ![image.png](images/image.png)
 > 
 
 ---
 
-![image.png](images/Enterprise%20Observability,%20Git%20Syncing%20&%20Pipeline%20F/image%201.png)
+![image.png](images/image%201.png)
 
 ## Part 2: Advanced Git Operations (Resolving Out-of-Sync Repositories)
 
