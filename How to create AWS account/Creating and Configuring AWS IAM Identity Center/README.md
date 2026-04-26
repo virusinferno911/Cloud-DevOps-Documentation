@@ -16,7 +16,7 @@ Sign in to the Management Account:
 - In the AWS Console search bar, type **IAM Identity Center**
 - Click **IAM Identity Center (Successor to AWS SSO)**
 
-![image.png](Creating%20and%20Configuring%20AWS%20IAM%20Identity%20Center/image.png)
+![image.png](images/image.png)
 
 **STEP TWO**
 
@@ -28,9 +28,9 @@ Enable IAM Identity Center:
     - Link it to your AWS Organization
     - Set up the default Identity Center directory
 
-![image.png](Creating%20and%20Configuring%20AWS%20IAM%20Identity%20Center/image%201.png)
+![image.png](images/image%201.png)
 
-![image.png](Creating%20and%20Configuring%20AWS%20IAM%20Identity%20Center/image%202.png)
+![image.png](images/image%202.png)
 
 **STEP THREE**
 
@@ -40,9 +40,9 @@ Choose Identity Source:
 - Select **Identity Center directory** (default and recommended for beginners)
 - This allows you to create users directly in AWS
 
-![image.png](Creating%20and%20Configuring%20AWS%20IAM%20Identity%20Center/image%203.png)
+![image.png](images/image%203.png)
 
-![image.png](Creating%20and%20Configuring%20AWS%20IAM%20Identity%20Center/image%204.png)
+![image.png](images/image%204.png)
 
 **STEP FOUR**
 
@@ -52,7 +52,7 @@ Locate the AWS Access Portal URL:
 - Copy the **AWS access portal URL**
 - This URL is used by users to sign in to AWS accounts
 
-![image.png](Creating%20and%20Configuring%20AWS%20IAM%20Identity%20Center/image%205.png)
+![image.png](images/image%205.png)
 
 **STEP FIVE**
 
@@ -65,9 +65,9 @@ Create User:
 
 The user will receive an email to set their password.
 
-![image.png](Creating%20and%20Configuring%20AWS%20IAM%20Identity%20Center/image%206.png)
+![image.png](images/image%206.png)
 
-![image.png](Creating%20and%20Configuring%20AWS%20IAM%20Identity%20Center/image%207.png)
+![image.png](images/image%207.png)
 
 **STEP SIX**
 
@@ -77,9 +77,9 @@ Create Groups (Recommended):
 - Click **Create group**
 - Add users to the group
 
-![image.png](Creating%20and%20Configuring%20AWS%20IAM%20Identity%20Center/image%208.png)
+![image.png](images/image%208.png)
 
-![image.png](Creating%20and%20Configuring%20AWS%20IAM%20Identity%20Center/image%209.png)
+![image.png](images/image%209.png)
 
 **STEP SEVEN**
 
@@ -90,11 +90,11 @@ Create Permission Sets:
 - Choose permission type (AWS managed policies)
 - Create the permission set
 
-![image.png](Creating%20and%20Configuring%20AWS%20IAM%20Identity%20Center/image%2010.png)
+![image.png](images/image%2010.png)
 
-![image.png](Creating%20and%20Configuring%20AWS%20IAM%20Identity%20Center/image%2011.png)
+![image.png](images/image%2011.png)
 
-![image.png](Creating%20and%20Configuring%20AWS%20IAM%20Identity%20Center/image%2012.png)
+![image.png](images/image%2012.png)
 
 **STEP EIGHT**
 
@@ -104,9 +104,9 @@ Assign Access to AWS Accounts:
 - Select an account (e.g. `development`)
 - Assign users or groups with permission sets
 
-![image.png](Creating%20and%20Configuring%20AWS%20IAM%20Identity%20Center/image%2013.png)
+![image.png](images/image%2013.png)
 
-![image.png](Creating%20and%20Configuring%20AWS%20IAM%20Identity%20Center/image%2014.png)
+![image.png](images/image%2014.png)
 
 **STEP NINE**
 
@@ -117,6 +117,6 @@ Sign in and Test Access:
 - Select the assigned account and role
 - Confirm access
 
-![image.png](Creating%20and%20Configuring%20AWS%20IAM%20Identity%20Center/image%2015.png)
+![image.png](images/image%2015.png)
 
-![image.png](Creating%20and%20Configuring%20AWS%20IAM%20Identity%20Center/image%2016.png)
+![image.png](images/image%2016.png)

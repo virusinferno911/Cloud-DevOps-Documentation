@@ -78,7 +78,7 @@ Visit:
 - Open **aws.amazon.com**
 - Click **Create a free Account**
 
-![image.png](How%20To%20Create%20Aws%20Account/image.png)
+![image.png](images//image.png)
 
 **STEP TWO:**
 
@@ -92,9 +92,9 @@ You will be asked for:
 
 Note: Use an email you will always have access to.
 
-![image.png](How%20To%20Create%20Aws%20Account/image%201.png)
+![image.png](images//image%201.png)
 
-![image.png](How%20To%20Create%20Aws%20Account/image%202.png)
+![image.png](images//image%202.png)
 
 **STEP THREE:**
 
@@ -102,7 +102,7 @@ Note: Use an email you will always have access to.
 
 On the **Choose your account plan** page, select **Free Plan**. This gives you access to the AWS **Free Tier**, which is ideal for learning, practice, and small projects. Click **Continue**.
 
-![image.png](How%20To%20Create%20Aws%20Account/image%203.png)
+![image.png](images//image%203.png)
 
 **STEP FOUR:**
 
@@ -114,7 +114,7 @@ Fill in your full name, phone number, country, and address as requested.
 
 Accept the AWS Customer Agreement, then click **Continue**.
 
-![image.png](How%20To%20Create%20Aws%20Account/image%204.png)
+![image.png](images//image%204.png)
 
 **STEP FIVE:**
 
@@ -127,7 +127,7 @@ Enter your **debit or credit card** details. AWS will charge a small temporary a
 Phone Verification:
 Enter your phone number. Choose whether to receive the verification code via **SMS or voice call**. Enter the one-time PIN sent to your phone and click **Verify**.
 
-![image.png](How%20To%20Create%20Aws%20Account/image%205.png)
+![image.png](images//image%205.png)
 
 **STEP SEVEN:**
 
@@ -143,7 +143,7 @@ After successful registration, go to: **https://console.aws.amazon.com**
 
 Sign in using your **root email address and password**.
 
-![image.png](How%20To%20Create%20Aws%20Account/image%206.png)
+![image.png](images//image%206.png)
 
 STEP NINE:
 
@@ -152,7 +152,7 @@ Secure the Root Account (Important):
 - Navigate to **IAM → Security credentials**
 - Enable **Multi-Factor Authentication (MFA)** on the root account
 
-![image.png](How%20To%20Create%20Aws%20Account/image%207.png)
+![image.png](images//image%207.png)
 
 **STEP TEN:**
 
@@ -164,14 +164,14 @@ Assign **AdministratorAccess** permissions.
 
 Use this IAM user for daily activities instead of the root account.
 
-![image.png](How%20To%20Create%20Aws%20Account/image%208.png)
+![image.png](images//image%208.png)
 
-![image.png](How%20To%20Create%20Aws%20Account/image%209.png)
+![image.png](images//image%209.png)
 
-[**AWS IAM Setup: Account Alias and User Management**](How%20To%20Create%20Aws%20Account/AWS%20IAM%20Setup%20Account%20Alias%20and%20User%20Management%202cad65318cf6807082ebd3d4bd8ea537.md)
+[**AWS IAM Setup: Account Alias and User Management**](images//AWS%20IAM%20Setup%20Account%20Alias%20and%20User%20Management%202cad65318cf6807082ebd3d4bd8ea537.md)
 
-[AWS IAM Role Configuration](How%20To%20Create%20Aws%20Account/AWS%20IAM%20Role%20Configuration%202cbd65318cf680ad87f6c998bde7cb7c.md)
+[AWS IAM Role Configuration](images//AWS%20IAM%20Role%20Configuration%202cbd65318cf680ad87f6c998bde7cb7c.md)
 
-[Creating and Configuring an AWS Organization](How%20To%20Create%20Aws%20Account/Creating%20and%20Configuring%20an%20AWS%20Organization%202cbd65318cf6808c93b0eeb1e68df1d8.md)
+[Creating and Configuring an AWS Organization](images//Creating%20and%20Configuring%20an%20AWS%20Organization%202cbd65318cf6808c93b0eeb1e68df1d8.md)
 
-[Creating and Configuring AWS IAM Identity Center](How%20To%20Create%20Aws%20Account/Creating%20and%20Configuring%20AWS%20IAM%20Identity%20Center%202ccd65318cf680ca8892c4fa18a3b0e5.md)
+[Creating and Configuring AWS IAM Identity Center](images//Creating%20and%20Configuring%20AWS%20IAM%20Identity%20Center%202ccd65318cf680ca8892c4fa18a3b0e5.md)

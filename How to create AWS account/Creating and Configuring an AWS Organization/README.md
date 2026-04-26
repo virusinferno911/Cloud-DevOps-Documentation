@@ -13,7 +13,7 @@ How to search for AWS Organizations in the Console:
 - Sign in to the AWS Management Console with the management account (root or IAM with Organizations permissions).
 - In the Console’s top-left search bar type **Organizations** and select **AWS Organizations** from the results.
 
-![image.png](Creating%20and%20Configuring%20an%20AWS%20Organization/image.png)
+![image.png](images/image.png)
 
 **STEP TWO**
 
@@ -23,7 +23,7 @@ How to create an Organization (if not already created):
 - Select **Feature set**: choose **All features** (recommended for full policy & governance control) or **Consolidated billing only** if you only want billing control.
 - Confirm to create the Organization. The account you used becomes the **management account**.
 
-![image.png](Creating%20and%20Configuring%20an%20AWS%20Organization/image%201.png)
+![image.png](images/image%201.png)
 
 **STEP THREE**
 
@@ -40,9 +40,9 @@ How to add / create an account inside the Organization:
 > Tip: keep a record of the new account’s Account ID and the IAM role name you specified,  you will need them to switch into the account.
 > 
 
-![image.png](Creating%20and%20Configuring%20an%20AWS%20Organization/image%202.png)
+![image.png](images/image%202.png)
 
-![image.png](Creating%20and%20Configuring%20an%20AWS%20Organization/image%203.png)
+![image.png](images/image%203.png)
 
 **STEP FOUR**
 See the account added (example: `development`):
@@ -54,9 +54,9 @@ See the account added (example: `development`):
     - **Role name** (if you provided one during creation; default is `OrganizationAccountAccessRole`)
 - Confirm the account state (Created / Succeeded). The account entry will show the account name and ID in the list.
 
-![image.png](Creating%20and%20Configuring%20an%20AWS%20Organization/image%204.png)
+![image.png](images/image%204.png)
 
-![image.png](Creating%20and%20Configuring%20an%20AWS%20Organization/image%205.png)
+![image.png](images/image%205.png)
 
 **STEP FIVE**
 
@@ -65,4 +65,4 @@ Login to the `development` account (recommended methods)
 - Create an IAM user inside the `development` account (or have the dev team create one) and attach the needed policies.
 - Use the development account’s console sign-in link or go to **https://console.aws.amazon.com/** and sign in with that IAM user’s credentials.
 
-![image.png](Creating%20and%20Configuring%20an%20AWS%20Organization/image%206.png)
+![image.png](images/image%206.png)
