@@ -24,13 +24,13 @@ Work was structured using the Agile hierarchy:
 
 ***A clean, custom-built Jira backlog showing the engineered AWS deployment tasks properly linked to the master Epic, ready to be loaded into a Sprint.***
 
-![image.png](image.png)
+![image.png](images/image.png)
 
 Once the backlog was groomed, the tickets were loaded into an active Sprint with a defined goal, and the Kanban board was launched to track the deployment lifecycle.
 
 ***The active Sprint board visualizing the workflow, allowing engineers to pull infrastructure tasks from "To Do" into "In Progress" and "Done".***
 
-![image.png](image%201.png)
+![image.png](images/image%201.png)
 
 ---
 
@@ -58,7 +58,7 @@ JSON
 
 *Caption: Configuring the Jira Automation rule, defining the "Issue Transitioned" trigger and injecting the custom JSON payload into the Web Request action.*
 
-![image.png](image%202.png)
+![image.png](images/image%202.png)
 
 ### 3. Pipeline Execution & Verification
 
@@ -66,4 +66,4 @@ Upon completing an infrastructure task on the Kanban board, the automation rule 
 
 ***Successful ChatOps execution, the automated JSON payload is received and beautifully formatted within the Slack #system-admin-team channel.***
 
-![image.png](image%203.png)
+![image.png](images/image%203.png)
